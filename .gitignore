@@ -1,5 +1,9 @@
 data
 .venv
+build
 *.zip
 
+sqlitescanner
+
 .DS_Store
+.vscode

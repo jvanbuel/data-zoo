@@ -7,9 +7,10 @@ authors = ["Jan <janvanbuel@hotmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 pyspark = "^3.3.0"
-polars = "^0.13.47"
+polars = {extras = ["pyarrow"], version = "^0.13.47"}
 pandas = "^1.4.2"
 duckdb = "^0.3.4"
+connectorx = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
